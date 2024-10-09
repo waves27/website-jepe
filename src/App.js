@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-[#aafff5] w-full h-full">
+    <div className="bg-[#dffffb] w-full h-full">
       <div className="w-full py-[10px]">
         <nav className="container relative flex flex-wrap items-center justify-between px-8 py-4 mx-auto lg:justify-between xl:px-1">
           <a href="/#">
