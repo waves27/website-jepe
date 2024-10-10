@@ -1,6 +1,8 @@
 import logo1 from "./assets/img/logo1.png";
 import logo3 from "./assets/img/logo3.jpeg";
 import jepeLogo from "./assets/img/jepe.png";
+import jepeLogo2 from "./assets/img/jepe-2.png";
+
 
 import iconTg from "./assets/img/iconTg.png";
 import iconX from "./assets/img/iconX.png";
@@ -30,24 +32,24 @@ function App() {
       </div>
 
       <div className="w-full h-[300px] flex justify-center items-center">
-        <h1 className="text-[#1572a9] text-8xl animation-text">$JEPE</h1>
+        <h1 className="text-[#1572a9] text-6xl md:text-8xl animation-text">$JEPE</h1>
       </div>
 
       <div className="flex justify-center items-center">
-        <div className="w-[500px] h-[550px]  border-[9px] rounded-[16px] border-cyan-300 overflow-hidden">
+        <div className="md:w-[500px] md:h-[550px] w-[300px] h-[350px]  border-[9px] rounded-[16px] border-cyan-300 overflow-hidden">
           <img src={logo3} className="w-full h-full object-cover" />
         </div>
       </div>
 
-      <div className="w-full pt-[80px] pb-[20px] text-center flex justify-center items-center">
-        <h5 className="text-[#1572a9] font-bold text-5xl p-5 bg-[#4af5ff] shadow-xl rounded-[16px]">
+      <div className="w-full pt-[40px] pb-[20px] md:pt-[80px] md:pb-[20px] px-5 text-center flex justify-center items-center">
+        <h5 className="text-[#1572a9] font-bold text-3xl md:text-5xl p-2 md:p-5 bg-[#4af5ff] shadow-xl rounded-[16px]">
           the most memeable jellyfish on the internet
         </h5>
       </div>
 
       <div className="w-full py-[20px] flex justify-center items-center">
         <p
-          className="text-[#1572a9] text-3xl p-5 text-wrap"
+          className="text-[#1572a9] text-2xl md:text-3xl md:text-3xl p-5 text-wrap"
           style={{ wordBreak: "break-all" }}
         >
           CA: Coming soon
@@ -56,7 +58,7 @@ function App() {
 
       <div className="w-full py-[20px] flex justify-center items-center">
         <p
-          className="text-[#1572a9] text-3xl p-5 text-wrap"
+          className="text-[#1572a9] text-2xl md:text-3xl p-5 text-center text-wrap"
           style={{ wordBreak: "break-all" }}
         >
           Coming on the 12th of October, Launch on{" "}
@@ -103,30 +105,30 @@ function App() {
       </div>
 
       <div className="w-full py-[20px] flex flex-col justify-center items-center">
-        <span class="text-5xl py-[50px] pt-[90px] text-[#1572a9] font-medium">
+        <span class="text-4xl md:text-5xl py-[50px] pt-[90px] text-[#1572a9] font-medium">
           jepe memes
         </span>
 
-        <div className="grid grid-cols-3 py-[20px]">
+        <div className="grid grid-cols-2 md:grid-cols-3 py-[20px]">
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] rotate-45" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-45" />
           </div>
 
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] -rotate-12" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-12" />
           </div>
 
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] rotate-45" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-45" />
           </div>
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] rotate-90" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-90" />
           </div>
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] -rotate-180" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-180" />
           </div>
           <div className="">
-            <img src={jepeLogo} className="w-[250px] h-[250px] -rotate-90" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-90" />
           </div>
         </div>
       </div>
@@ -137,17 +139,17 @@ function App() {
         </div>
       </div> */}
 
-      <div className="w-full pt-[80px] pb-[20px] text-center flex justify-center items-center">
-        <h5 className="text-[#1572a9] font-bold text-8xl p-5">Tokenomics</h5>
+      <div className="w-full pt-[80px] pb-[20px] text-center flex justify-center items-center flex-wrap">
+        <h5 className="text-[#1572a9] font-bold text-5xl md:text-8xl p-5">Tokenomics</h5>
       </div>
 
-      <div className="w-full py-[40px] gap-24 flex justify-center items-center">
+      <div className="w-full py-[40px] gap-24 px-5 flex flex-wrap justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <div className="border-[10px] w-48 h-48 border-cyan-300 rounded-full overflow-hidden">
             <img src={logo1} className="w-full h-full" />
           </div>
 
-          <p className="text-[#1572a9] font-bold text-5xl pt-5">Total Supply</p>
+          <p className="text-[#1572a9] font-bold text-3xl md:text-5xl pt-5">Total Supply</p>
 
           <p className="text-[#000] font-bold text-4xl pt-5">1,000,000,000</p>
         </div>
@@ -157,9 +159,9 @@ function App() {
             <img src={logo1} className="w-full h-full" />
           </div>
 
-          <p className="text-[#1572a9] font-bold text-4xl pt-5">LP Burned</p>
+          <p className="text-[#1572a9] font-bold text-3xl md:text-4xl pt-5">LP Burned</p>
 
-          <p className="text-[#000] font-bold text-4xl pt-5">10%</p>
+          <p className="text-[#000] font-bold text-3xl md:text-4xl pt-5">10%</p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
@@ -167,9 +169,9 @@ function App() {
             <img src={logo1} className="w-full h-full" />
           </div>
 
-          <p className="text-[#1572a9] font-bold text-4xl pt-5">Tax</p>
+          <p className="text-[#1572a9] font-bold text-3xl md:text-4xl pt-5">Tax</p>
 
-          <p className="text-[#000] font-bold text-4xl pt-5">0%</p>
+          <p className="text-[#000] font-bold text-3xl md:text-4xl pt-5">0%</p>
         </div>
       </div>
 
