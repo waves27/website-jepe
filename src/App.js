@@ -111,24 +111,24 @@ function App() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 py-[20px]">
           <div className="">
-            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-45" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] hue-rotate-90 rotate-3" />
           </div>
 
           <div className="">
-            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-12" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] hue-rotate-60 rotate-12" />
           </div>
 
           <div className="">
-            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-45" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] hue-rotate-180 rotate-45" />
           </div>
           <div className="">
-            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] rotate-90" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -hue-rotate-180 rotate-45" />
           </div>
           <div className="">
-            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-180" />
+            <img src={jepeLogo} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -hue-rotate-90 rotate-6" />
           </div>
           <div className="">
-            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -rotate-90" />
+            <img src={jepeLogo2} className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] -hue-rotate-60 rotate-12" />
           </div>
         </div>
       </div>
